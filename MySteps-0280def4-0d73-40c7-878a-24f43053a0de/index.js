@@ -23,21 +23,7 @@ var handlers = {
 	var midpause = '<break time="5s" />';
 
 
-	if (myStep == "plug in a charger") {
-		this.response.speak("Okay! First, locate a socket to plug the charger in." + 
-		pause + 
-		"push the part of the charger which fits the holes in the socket into the socket, like a puzzle piece!" +
-		pause + 
-		"All done!");
-		}
-	else if (myStep == "open a lid") {
-		this.response.speak("Okay! First, place your hands around the lid." +
-		pause +
-		"Next, either firmly tug or twist  the top until the lid comes off." +
-		pause +
-		"All done!");
-		} 
-	else if (myStep == "heart rate") {
+	if (myStep == "heart rate") {
 		this.response.speak("Okay! To measure heart rate, follow these six steps. First, use the pads of your index and middle fingers to palpate the radial artery, over the lateral aspect of the wrist" +
 		pause +
 		"Start counting pulses now" +
